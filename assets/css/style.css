@@ -1,0 +1,44 @@
+.body_page {
+  background-color: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+  perspective: 500px;
+}
+
+.wrapper {
+  text-align: center;
+  width: 70%;
+  position: relative;
+  margin: auto;
+  transform: scale3d(1, 2, 1.5) rotateX(29deg);
+}
+
+.content {
+  color: #fbcf00;
+  font-family: "News Cycle", sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 1.5;
+  animation-name: star_wars;
+  /* animation-delay: 1s; */
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: linear;
+  position: absolute;
+  padding: 0 300px;
+}
+
+@keyframes star_wars {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: -100vh;
+  }
+}
