@@ -3,8 +3,6 @@
 
 <`Star Wars animation link`>: <https://miss-kiparis.github.io/Star-Wars/>
 
-Верстка виконана без використання CSS бібліотек типу Bootstrap або Materialize.
-
 Анімація зациклена, триває 30 секунд.
 
 Текст з анімації:
