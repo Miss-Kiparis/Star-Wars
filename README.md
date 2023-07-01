@@ -8,6 +8,7 @@
 Анімація зациклена, триває 30 секунд.
 
 Текст з анімації:
+
         EPISODE 0 ATTACK OF THE FRONTEND
         When there is no more hope. When Winter is coming. When the White Walkers prepare to break down the Wall and 
         JAVA can no longer stop them ...
